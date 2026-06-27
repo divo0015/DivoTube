@@ -1,0 +1,49 @@
+.side-bar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    top: 54px;
+    background-color: rgb(249, 249, 249);
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 235;
+    
+}
+.side-bar-block{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-bar-block:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.home{
+    width: 25px;
+    
+}
+.explore{
+    width: 25px;
+}
+.subscriptions{
+    width: 25px;
+}
+.originals{
+    width: 25px;
+}
+.music{
+    width: 25px;
+}
+.library{
+    width: 25px;
+}
+.side-content{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-top: 5px;
+}
